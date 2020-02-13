@@ -5,11 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CancellationTokenSourceProjectTest"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="800" Width="450">
     <Grid>
         <StackPanel>
             <Button Name="AddTask" Click="AddTask_Click" Content="Run Task"/>
             <Button Name="CancelTask" Click="CancelTask_Click" Content="Cancel Task"/>
+            <Button Name="SingletonTask" Click="SingletonTask_Click"  Content="Singleton Task"/>
         </StackPanel>
         
     </Grid>
